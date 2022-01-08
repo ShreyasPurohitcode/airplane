@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title> Lab Program 3</title>
+        <link rel="stylesheet" href="style.css">
+        <script language ="JavaScript">
+            function welcome()
+            {
+                alert ("Welcome to international Airport");
+            }
+            function kingfisher()
+            {
+                alert ("Welcome to Kingfisher");
+            }
+            function IndianAirlines()
+            {
+                alert ("Welcome to Indian Airlines");
+            }
+            function JetAirways()
+            {
+                alert ("Welcome to Jet Airways");
+            }
+        </script>
+    </head>
+    <body onLoad="return welcome();">
+        <center><h1> WELOCME TO INTERNATIONAL AIRPORT</h1></center>
+        <div class="radio">
+            <h3><input type="radio" name=b1 value="click here" 
+            onclick="return kingfisher();">KINGFISHER</h3>
+            <br>
+            <h3><input type="radio" name=b1 value="click here"
+            onclick="return IndianAirlines();"> Indian Airlines</h3>
+            <br>
+            <h3><input type="radio" name =b1 value="click here"
+            onclick="return JetAirways();"> Jet Airways</h3>
+        </div>
+    </body>
+</html>
